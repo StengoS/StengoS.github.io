@@ -1,14 +1,14 @@
 import './node_modules/ol/ol.css';
-import Feature from 'ol/Feature';
-import Map from 'ol/Map';
-import Point from 'ol/geom/Point';
-import TileJSON from 'ol/source/TileJSON';
-import VectorSource from 'ol/source/Vector';
-import View from 'ol/View';
-import {Icon, Style} from 'ol/style';
-import {Tile as TileLayer, Vector as VectorLayer} from 'ol/layer';
-import {fromLonLat} from 'ol/proj';
-import {OSM} from 'ol/source';
+import Feature from './node_modules/ol/Feature';
+import Map from './node_modules/ol/Map';
+import Point from './node_modules/ol/geom/Point';
+import TileJSON from './node_modules/ol/source/TileJSON';
+import VectorSource from './node_modules/ol/source/Vector';
+import View from './node_modules/ol/View';
+import {Icon, Style} from './node_modules/ol/style';
+import {Tile as TileLayer, Vector as VectorLayer} from './node_modules/ol/layer';
+import {fromLonLat} from './node_modules/ol/proj';
+import {OSM} from './node_modules/ol/source';
 
 const los_angeles = new Feature({
   geometry: new Point(fromLonLat([-118.241592, 34.054622])),
