@@ -1,4 +1,4 @@
-import 'ol/ol.css';
+import './node_modules/ol/ol.css';
 import Feature from 'ol/Feature';
 import Map from 'ol/Map';
 import Point from 'ol/geom/Point';
